@@ -1,4 +1,4 @@
-# However, this didn't work for me, so I found a solution where you instead open nvim with
+# However, this did work for me, and I found a solution where you instead open nvim with
 
 ```$ nvim -c "set rtp+=."```
 
