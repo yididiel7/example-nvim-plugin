@@ -5,8 +5,7 @@
 This works because according the "man nvim", you'll notice that --cmd runs BEFORE any vimrc, 
 so it probably gets overridden. -c runs after reading the file, so it takes precedence.
 
-At 3:45, after entering nvim, check that the current directory is in the rtp using the vim command 
-
+Inside nvim you can Run a check to see if the current directory is in the rtp using the vim command 
 
 ```:echo &rtp```
 
